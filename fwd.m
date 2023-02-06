@@ -1,4 +1,8 @@
 
+%{
+Function that calculates the position[u1,u2] of a pixel P:(p1,p2) of an image with
+dimensions [N1,N2] after rotation by an angle of theta
+%}
 
 function [u1,u2]  = fwd(P,theta,N1,N2)
     p1 = P(1);
