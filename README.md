@@ -16,9 +16,9 @@ A procedure that checks if a point is salient (edge or corner) based on Harris C
 The previous procedure is repeated for a different image depicting the same scene, though having a slightly shifted viewpoint and having different orientation.\
 (The two images can be stitched into a second bigger one, containing both)\
 
-Solarized dark             |  Solarized Ocean
+Image 1             |  Image 2
 :-------------------------:|:-------------------------:
-![](TestIm1.png "IM1")  |  ![](TestIm2.png "IM2")
+![](\imgs\1.3.1a.png "IM1")  |  ![](\imgs\1.3.1b.png "IM2")
 
 Having extracted the salient points from the two pictures the final stitching procedure is called (myStitch.m).\
 The salient points are described using the previous descriptors and the pairs of points that are most similar to one another are used to estimate the (inverse)
