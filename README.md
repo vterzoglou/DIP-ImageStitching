@@ -1,6 +1,6 @@
 # Purpose
-A simple project created in order to stitch together 2 images of the same scene in a new panorama-like image.\ 
-This Image Stitching Project was implemented for the course of Digitial Image Processing in Aristotle University of Thessaloniki\ 
+A simple project created in order to stitch together 2 images of the same scene in a new panorama-like image.
+This Image Stitching Project was implemented for the course of Digitial Image Processing in Aristotle University of Thessaloniki
 (Dept. of Electrical and Computer Engineering) 
 
 # Usage
