@@ -1,7 +1,7 @@
-# DIP-ImageStitching
-Image Stitching Project for the course of Digitial Image Processing in Aristotle University of Thessaloniki\
+# Purpose
+A simple project created in order to stitch together 2 images of the same scene in a new panorama-like image.\ 
+This Image Stitching Project was implemented for the course of Digitial Image Processing in Aristotle University of Thessaloniki\ 
 (Dept. of Electrical and Computer Engineering) 
-
 
 # Usage
 Main file (main_exe.m) is split into sections corresponding to different subtasks found in Task_Outline.pdf\
@@ -15,7 +15,7 @@ different rotations and different descriptor parameters\
 A procedure that checks if a point is salient (edge or corner) based on Harris Corner Detector is called for each pixel of the image and the points found are marked.
 The previous procedure is repeated for a different image depicting the same scene, though having a slightly shifted viewpoint and having different orientation.\
 (The two images can be stitched into a second bigger one, containing both)
-\
+
 Image 1             |  Image 2
 :-------------------------:|:-------------------------:
 ![](./imgs/1.3.1a.bmp "IM1")  |  ![](./imgs/1.3.1b.bmp "IM2")
